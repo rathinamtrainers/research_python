@@ -6,9 +6,9 @@
 > coherent foundations→advanced arc. **Across the four parts, every aspect of the Python 3.14
 > documentation is covered.** This roadmap proves that with an aspect→part partition.
 >
-> **All four parts are now authored.** Part 1 lives at the repo root (`010_brochure/brochure.md`);
-> Parts 2–4 each live in their own part folder (`part-2-intermediate/`, `part-3-advanced/`,
-> `part-4-expert/`), following the same `010_brochure/` convention. **Last verified against
+> **All four parts are now authored.** Each part lives in its own part folder
+> (`part-1-foundations/`, `part-2-intermediate/`, `part-3-advanced/`, `part-4-expert/`),
+> following the same `010_brochure/` convention. **Last verified against
 > Python 3.14: 2026-06-11.**
 
 ---
@@ -95,7 +95,7 @@ This table is the coverage proof: every documented aspect maps to exactly one pa
 ### Part 1 — Foundations  ✅ (authored this run)
 - **Scope:** absolute basics → confident idiomatic core Python; the Tutorial end-to-end plus foundational Reference/Library slices.
 - **Audience:** complete beginners + developers new to Python. **Prereqs:** none.
-- **Budget:** ~30 live h ≤ 32h ceiling. **Brochure:** `010_brochure/brochure.md`.
+- **Budget:** ~30 live h ≤ 32h ceiling. **Brochure:** `part-1-foundations/010_brochure/brochure.md`.
 
 ### Part 2 — Intermediate & OOP  ✅ authored
 - **Scope:** decorators, context managers, advanced generators, `functools`/`itertools`, dataclasses/enums, full `re`, deep standard library, the **complete static typing system**, **testing with `pytest`**, modular design.

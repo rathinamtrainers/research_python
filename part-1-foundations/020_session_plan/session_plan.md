@@ -9,7 +9,7 @@
 > homework, for all sixteen sessions. It is built from, and bounded by, the authoritative scope in
 > [`../010_brochure/brochure.md`](../010_brochure/brochure.md), grounded against the official
 > **Python 3.14** documentation (3.14.6, current stable). Parts 2–4 are scoped separately in
-> [`../training_roadmap.md`](../training_roadmap.md); nothing from those parts is pulled in here.
+> [`../../training_roadmap.md`](../../training_roadmap.md); nothing from those parts is pulled in here.
 
 ---
 
@@ -1238,4 +1238,4 @@ and the official **Python 3.14** documentation, with tool and version facts **we
 ---
 
 *Rathinam Trainers & Consultants Private Limited — trainer-facing delivery guide for Python Mastery
-Part 1: Foundations. Built from the Part 1 brochure; Parts 2–4 are scoped in `../training_roadmap.md`.*
+Part 1: Foundations. Built from the Part 1 brochure; Parts 2–4 are scoped in `../../training_roadmap.md`.*

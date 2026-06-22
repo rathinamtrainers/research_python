@@ -7,7 +7,7 @@
 > This is **Part 1 of a 4-part Python Mastery program** that covers Python end-to-end, from
 > "never written a line" through expert-level CPython internals and C extensions. The full
 > arc, the split, and how every documented Python topic is covered across the four parts is
-> laid out in [`training_roadmap.md`](../training_roadmap.md). This brochure is the complete,
+> laid out in [`training_roadmap.md`](../../training_roadmap.md). This brochure is the complete,
 > standalone scope for **Part 1 — Foundations**, grounded in the official Python 3.14 documentation.
 
 ---
@@ -118,7 +118,7 @@ On finishing Part 1, you will be able to:
 
 This is the spine of the brochure. Every aspect below is drawn from the official Python 3.14
 documentation; the **Source** column traces each module back to where it comes from. (Full
-source list in [`000_topic_source/SOURCES.md`](../000_topic_source/SOURCES.md).)
+source list in [`000_topic_source/SOURCES.md`](../../000_topic_source/SOURCES.md).)
 
 | Module | Aspects covered | Source |
 |--------|-----------------|--------|
@@ -143,7 +143,7 @@ source list in [`000_topic_source/SOURCES.md`](../000_topic_source/SOURCES.md).)
 > slices of the Language Reference and Standard Library. Deeper Reference, the full typing
 > system, advanced OOP, concurrency/async, packaging/distribution, testing at depth, the C
 > API, and CPython internals are **explicitly carried by Parts 2–4** — named and partitioned
-> in [`training_roadmap.md`](../training_roadmap.md). Nothing in the documentation is dropped;
+> in [`training_roadmap.md`](../../training_roadmap.md). Nothing in the documentation is dropped;
 > it is covered across the four parts.
 
 ---
@@ -180,7 +180,7 @@ not counted here).
 **Decision: Part 1 fits in one 16×2h (32h) course.** The ~30h budget sits inside the 32h
 ceiling with sensible buffer. Because the *whole* topic (basics → expert) is far larger than
 32h, the program is **split into 4 parts**; this brochure scopes the foundational Part 1, and
-[`training_roadmap.md`](../training_roadmap.md) scopes Parts 2–4 so the entire Python
+[`training_roadmap.md`](../../training_roadmap.md) scopes Parts 2–4 so the entire Python
 documentation surface is covered across the program.
 
 ```mermaid
@@ -264,7 +264,7 @@ is produced separately by the session planner — this is only the shape.)
 ## 8. Limitations / What's Out of Scope (carried by later parts)
 
 Part 1 deliberately stops at *confident, idiomatic core Python*. The following are **named and
-carried by later parts** (see [`training_roadmap.md`](../training_roadmap.md)) — not dropped:
+carried by later parts** (see [`training_roadmap.md`](../../training_roadmap.md)) — not dropped:
 
 - **Part 2 — Intermediate & OOP:** decorators, context managers (authoring), advanced iterators/generators & `yield from`, dataclasses, enums, `functools`/`itertools`, deep standard library, full `re`, the complete static **typing** system, logging/config, unit testing with `pytest`, modular project design.
 - **Part 3 — Advanced:** the Python data model & dunder protocols in depth, descriptors, metaclasses, abstract base classes, memory model & garbage collection, **concurrency** (threading, multiprocessing, `concurrent.futures`, free-threaded/no-GIL), **`asyncio`** and async/await, packaging & distribution to PyPI, performance basics.
